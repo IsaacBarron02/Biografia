@@ -1,0 +1,30 @@
+{
+    "nombreApp" : "Componentes",
+    "rutas" : [
+        {
+            "ruta" : "alert",
+            "icon" : "add_alert",
+            "texto": "Pendientes"
+        },
+        {
+            "ruta" : "avatar",
+            "icon" : "accessibility",
+            "texto": "Social Media"
+        },
+        {
+            "ruta" : "forms",
+            "icon" : "input",
+            "texto": "Información"
+        },
+        {
+            "ruta" : "slider",
+            "icon" : "tune",
+            "texto": "Foto"
+        },
+        {
+            "ruta" : "list",
+            "icon" : "list",
+            "texto": "Imágenes Swoboda"
+        }
+    ]
+}
