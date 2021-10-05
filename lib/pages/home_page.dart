@@ -9,13 +9,13 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
     appBar: AppBar(
-    title: Text('Swoboda Inside'),
+    title: Text('Soy YO'),
     backgroundColor: Colors.blue.shade900,
     actions: <Widget>[
           Container(
             padding: EdgeInsets.all(10.0),
             child: CircleAvatar(
-              backgroundImage: NetworkImage('https://lh3.googleusercontent.com/proxy/Wr54TWrhl-z4adzdBt2my4rie_l4UdpfD_eQDS3lBjSKJ3774iVIFPaa8Lam4NGfz2FDoFrMaqizQwHfk3LUZiSqVO6ckcryq2oG8U3vdTkKZU0zb6eSMDYiNA'),
+              backgroundImage: NetworkImage('https://lh3.googleusercontent.com/a-/AOh14GjtNV9vpEwZBdjvBpz9i3zKqnTY4eFnMWrkD94TtQ=s576-p-no'),
             ),
           ),
           Container(

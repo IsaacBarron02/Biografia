@@ -1,15 +1,15 @@
 {
-    "nombreApp" : "Componentes",
+    "nombreApp" : "Autobiografia",
     "rutas" : [
         {
             "ruta" : "alert",
             "icon" : "add_alert",
-            "texto": "Pendientes"
+            "texto": "Vision"
         },
         {
             "ruta" : "avatar",
             "icon" : "accessibility",
-            "texto": "Social Media"
+            "texto": "Acerca de mí"
         },
         {
             "ruta" : "forms",
@@ -24,7 +24,7 @@
         {
             "ruta" : "list",
             "icon" : "list",
-            "texto": "Imágenes Swoboda"
+            "texto": "Imágenes Tomadas"
         }
     ]
 }

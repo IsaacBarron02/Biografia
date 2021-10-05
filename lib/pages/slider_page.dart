@@ -22,7 +22,7 @@ class _SliderPageState extends State<SliderPage> {
           Container(
             padding: EdgeInsets.all(10.0),
             child: CircleAvatar(
-              backgroundImage: NetworkImage('https://lh3.googleusercontent.com/proxy/Wr54TWrhl-z4adzdBt2my4rie_l4UdpfD_eQDS3lBjSKJ3774iVIFPaa8Lam4NGfz2FDoFrMaqizQwHfk3LUZiSqVO6ckcryq2oG8U3vdTkKZU0zb6eSMDYiNA'),
+              backgroundImage: NetworkImage('https://lh3.googleusercontent.com/a-/AOh14GjtNV9vpEwZBdjvBpz9i3zKqnTY4eFnMWrkD94TtQ=s576-p-no'),
             ),
           ),
           Container(
@@ -68,7 +68,7 @@ class _SliderPageState extends State<SliderPage> {
   }
   Widget _crearImagen(){
     return Image(
-      image: NetworkImage ('http://assets.stickpng.com/images/580b57fbd9996e24bc43bd2f.png'),
+      image: NetworkImage ('https://lh3.googleusercontent.com/-R2gmQ27t2ew/X1AfiTHBxfI/AAAAAAAAAA8/ybbgS6TorTwDWFULLU-t1GrQb88vQCNjwCEwYBhgLKtQDABHVOhwwzvxwUrZm5uHDbqdTZCf5jjd9WSEQ1aTthOaixpcMz6d-7tybfA_8zCF5hrIM0Qp6CNlPBJ9XmU8JLNpYAiayPu3BTinFU6StxIdTsDDMNlL7JTZhjCooEy7r83J32FQ8KI749-NEycLN9M7P8KZe1ogSRGvUpvb0pofmDW2DjEW9inOaw53TfHdIqnJwNFqhZCK091srW78mexzQstj4YbXXpAN_6NmJMgafZDC0cfrmJKmiokvG5yrIQFav0_Mpt4TYJLsNNkkIHKSze-ngrmzxrw6rzDulDJ8pPvvDPAZrXbS75X1vU_c_obaXvayUMSRB-QD0dRRne5iLanVAdTguBMWNJqaqRepGWzgv2FIu3kXDS6siOW_wbqTHFDVqrKRHeqWUKmz9kcAy2ikgGzh5iWtvg1hvyLMoK5a_s0YAZ9EZaCEQK_tTEUy0iry9SZz7w-k7m5TrUQ4U-47W31HKM5XJ49gq_Fuz6wRQESA3XYcRnCNhad4TSajBHkH0UEYwYy2pnKnv5wkTMYOwNj7t3p7NttagrSjI0YMYpd0IYIhbM3MaSfZVdKX9dkf-cyIQjaRyzHeiUJGLZgcBLIG2W-JKK7vxoM9cegkqMNXe8ooG/w278-h280-p/IMG_20190531_210125.jpg'),
       width: _valorSlider,
       fit: BoxFit.contain,
       );

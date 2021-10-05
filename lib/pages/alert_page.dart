@@ -12,7 +12,7 @@ class AlertPage extends StatelessWidget {
           Container(
             padding: EdgeInsets.all(10.0),
             child: CircleAvatar(
-              backgroundImage: NetworkImage('https://lh3.googleusercontent.com/proxy/Wr54TWrhl-z4adzdBt2my4rie_l4UdpfD_eQDS3lBjSKJ3774iVIFPaa8Lam4NGfz2FDoFrMaqizQwHfk3LUZiSqVO6ckcryq2oG8U3vdTkKZU0zb6eSMDYiNA'),
+              backgroundImage: NetworkImage('https://lh3.googleusercontent.com/a-/AOh14GjtNV9vpEwZBdjvBpz9i3zKqnTY4eFnMWrkD94TtQ=s576-p-no'),
             ),
           ),
           Container(
@@ -28,7 +28,7 @@ class AlertPage extends StatelessWidget {
       body: Center(
         
         child: ElevatedButton(
-          child: Text('Orden de trabajo'),
+          child: Text('Vision'),
           onPressed: (){
             _mostrarAlerta(context);
           },
@@ -48,13 +48,13 @@ class AlertPage extends StatelessWidget {
       barrierDismissible: true,
       builder: (context){
         return AlertDialog(
-          title: Text('Orden: FM934'),
+          title: Text('Vision'),
           content: //Text('Contenido de la alerta')
                   Column(
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
-                      Text('Tool Room'),
-                      Image(image: NetworkImage('https://2.bp.blogspot.com/-nkEP8FBWpWw/Vnr6ciibedI/AAAAAAAAAOs/zXump0Tuqpc/s1600/Ejemplo%2BOrden%2Bde%2BTrabajo.png')), 
+                      Text('Soy un persona a la cual le gusta tener constante aprendizaje, que busca la mejora continua y trata de ayudar a los demás para lograr un aprendizaje compartido.'),
+                      Image(image: NetworkImage('https://as.com/meristation/imagenes/2021/01/20/noticias/1611141009_391573_1611141045_noticia_normal.jpg')), 
                       
                     ],
                   ),

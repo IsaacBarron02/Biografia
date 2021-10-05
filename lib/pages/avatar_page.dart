@@ -6,13 +6,13 @@ class AvatarPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text ('Perfil'),
+        title: Text ('Acerca de mí'),
         backgroundColor: Colors.blue.shade900,
         actions: <Widget>[
           Container(
             padding: EdgeInsets.all(10.0),
             child: CircleAvatar(
-              backgroundImage: NetworkImage('https://lh3.googleusercontent.com/proxy/Wr54TWrhl-z4adzdBt2my4rie_l4UdpfD_eQDS3lBjSKJ3774iVIFPaa8Lam4NGfz2FDoFrMaqizQwHfk3LUZiSqVO6ckcryq2oG8U3vdTkKZU0zb6eSMDYiNA'),
+              backgroundImage: NetworkImage('https://lh3.googleusercontent.com/a-/AOh14GjtNV9vpEwZBdjvBpz9i3zKqnTY4eFnMWrkD94TtQ=s576-p-no'),
             ),
           ),
           Container(
@@ -58,8 +58,8 @@ class AvatarPage extends StatelessWidget {
         children: <Widget>[
           ListTile(
             leading: Icon(Icons.photo_album_rounded, color: Colors.blue,),
-            title: Text('Convivio 16 de septiembre'),
-            subtitle: Text('El pasado 16 de septiembre se realizó el ya conmemorativo convivio mexicano, en el cual se dio de comer a los empleados distintos antojitos mexicanos como: enchiladas queretaranas, gorditas, flautas, pambazos, etc. En el convio se contó con las debidas restricciones por pandemia por lo que se..'),
+            title: Text('¿Quién soy yo?'),
+            subtitle: Text('Mi nombre es Isaac Marcelino Barron Velazco, soy estudiante de 10º cuatrimestre de la carrera de Desarrollo de Sotware, actualmente estudio y trabajo; en mi empleo(Swoboda) llevo 3 años y 4 meses en donde trabajo como analista de TI'),
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.end,
@@ -81,7 +81,7 @@ class AvatarPage extends StatelessWidget {
         children: <Widget>[
           const FadeInImage(
             image: NetworkImage(
-              'https://www.revistanuve.com/wp-content/uploads/2017/09/VivaMexico-1.jpg'),
+              'https://instagram.fqro3-1.fna.fbcdn.net/v/t51.2885-19/s320x320/244385420_557999875408044_2928126856483357748_n.jpg?_nc_ht=instagram.fqro3-1.fna.fbcdn.net&_nc_ohc=9ew6KE0kPKkAX_gSMwc&edm=ABfd0MgBAAAA&ccb=7-4&oh=ec4173a3bbd334102c1a463c1d89150e&oe=61640D50&_nc_sid=7bff83'),
             placeholder: AssetImage('assets/jar-loading.gif'),
             fadeInDuration: Duration(milliseconds: 200),
             height: 300.0,
@@ -93,7 +93,7 @@ class AvatarPage extends StatelessWidget {
             ), */
             Container(
               padding: EdgeInsets.all(10.0),
-              child: Text('Grito de independencia'),
+              child: Text('Mineral el chico, Hidalgo'),
             ),
         ],
       ),
@@ -127,8 +127,8 @@ class AvatarPage extends StatelessWidget {
         children: <Widget>[
           ListTile(
             leading: Icon(Icons.photo_album_rounded, color: Colors.blue,),
-            title: Text('Auditoría Bosch'),
-            subtitle: Text('Durante la semana 38 se tuvo la visita de nuestro cliente Bosch, el cual vino a ver los procesos de LVS y SPS esto con la con la finalidad de ver como se estaban corrigiendo los recientes defectos en el sensor para Rivian. Durante la auditoría el cliente nos felicitó pues hemos podido dar una solición pronta y cumpliendo con los estándares de calidad..'),
+            title: Text('Album favorito'),
+            subtitle: Text('Mis gustos musicales son muy variados, ya que disfruto de cada tipo de música (a excepcion del K-pop y heavy metal), pero si me diera a escoger acerca de un albúm que no me canse de escuchar, definitivamente sería Hollywoods bleeding de Post Malone '),
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.end,
@@ -150,7 +150,7 @@ class AvatarPage extends StatelessWidget {
         children: <Widget>[
           const FadeInImage(
             image: NetworkImage(
-              'https://www.ambientum.com/wp-content/uploads/2019/05/bosch-logo-696x359.jpg'),
+              'https://images-na.ssl-images-amazon.com/images/I/41etecSUOSL.jpg'),
             placeholder: AssetImage('assets/jar-loading.gif'),
             fadeInDuration: Duration(milliseconds: 200),
             height: 300.0,
@@ -162,7 +162,7 @@ class AvatarPage extends StatelessWidget {
             ), */
             Container(
               padding: EdgeInsets.all(10.0),
-              child: Text('Robert Bosch México'),
+              child: Text('Hollywoods Bleeding - 2019'),
             ),
         ],
       ),
